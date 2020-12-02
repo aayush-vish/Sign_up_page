@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300&display=swap');
+.App {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+input:hover{
+border: 1px solid #0B223B;
+}
+.App__dob select:hover{
+  border: 1px solid #0B223B;
+}
+
+
+.App__head{
+  background-color: white;
+  height: 70px;
+}
+.App__head img{
+  height: 50px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 70px;
+}
+
+.App__content{
+  display: flex;
+}
+
+.App__illus{
+  /* background-color: aquamarine; */
+  height: 500px;
+  width: 70%;
+}
+
+.App__form{
+  /* background-color: aqua; */
+  width: 50%;
+  height: 500px;
+}
+.App__form h1{
+  margin-right: 300px;
+  font-size: 45px;
+  margin-bottom: 7px;
+}
+.App__name{
+  display: flex;
+}
+
+
+.App__name img{
+  margin-top: 28px;
+  height: 20px;
+  margin-left: 45px;
+  margin-right: 7px;
+}
+.App__name input{
+  width: 155px;
+  height: 32px;
+  margin-right: 15px;
+}
+.App__name input:first-child{
+  width: 155px;
+  height: 32px;
+  margin-left: 75px;
+  /* margin-right: 20px; */
+}
+.App__form #msg{
+  margin-top: 28px;
+  height: 20px;
+  margin-left: -30px;
+  margin-right: 7px;
+}
+.App__form #pass{
+  margin-top: 28px;
+  height: 20px;
+  margin-left: -30px;
+  margin-right: 7px;
+}
+input{
+  width: 345px;
+  height: 32px;
+  font-size: 20px;
+  margin-right:60px;
+  margin-top: 20px;
+  padding: 7px;
+  color: #222222;
+  background-color: #F2F5FA;
+  border: none;
+  border-radius: 18px;
+}
+
+
+.App__dob{
+  display: flex;
+}
+.App__dob img{
+  margin-top: 30px;
+  height: 20px;
+  margin-left: 47px;
+  margin-right: 7px;
+}
+.App__dob input{
+  width: 75px;
+  height: 32px;
+  margin-right: 15px;
+}
+.App__dob input:first-child{
+  width: 55px;
+  height: 32px;
+  margin-left: 75px;
+}
+.App__dob select{
+  width: 155px;
+  height: 45px;
+  font-size: 20px;
+  margin-right: 15px;
+  margin-top: 21px;
+  padding: 3px;
+  color: #222222;
+  background-color: #F2F5FA;
+  border: none;
+  border-radius: 18px;
+}
+
+
+.App__form p{
+  font-size: 10px;
+  margin-top: 15px;
+  margin-right: 50px;
+}
+button{
+  margin-right: 75px;
+  margin-top: 15px;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  width: 395px;
+  font-size: 24px;
+  background-color: #F15D4F;
+  color: white;
+  box-shadow: 1px 5px #e6a9a4;
+}
+
+
+
+
+.App__sign .social{
+  display: flex;
+  margin-left: 170px;
+}
+
+.App__sign .social img{
+  height: 40px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.App__sign p{
+  font-size: 14px;
+}
+
+.App__form label{
+  position: absolute;
+  transition: 0.5s forwards;
+  opacity: 0;
+}
+.App__name label{
+  opacity: 0;
+  position: absolute;
+  left: 860px;
+}
+.App__name .ln{
+  opacity: 0;
+  position: absolute;
+  left: 1050px;
+}
+
+
+.App__form input:focus ~label{
+  opacity: 1;
+}
+.App__name input:focus ~label{
+  opacity: 1;
+}
+.App__name input:focus ~.ln{
+  opacity: 1;
+}
